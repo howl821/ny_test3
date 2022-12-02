@@ -1,0 +1,286 @@
+@charset "utf-8";
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none; 
+}
+
+body{
+    width: 1200px;
+    height: 1000px;
+}
+
+#notice-wrap{
+    width: 300px;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    box-shadow: 0 0 8px #000;
+}
+.closeWrap{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 5px 10px;
+}
+.closeBtn{
+    margin-left: 20px;
+    cursor: pointer;
+
+}
+
+header{
+    width: 1200px;
+    height: 100px;
+    background-color: antiquewhite;
+    position: relative;
+}
+
+.logo{
+    float: left;
+    background-color: aliceblue;
+    width: 200px;
+    height: 100px;
+    position: relative;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.logo img{
+}
+
+.nav{
+    float: left;
+    width: 800px;
+    height: 50px;
+    background-color: red;
+    position: relative;
+    top: 40px;
+    left: 100px;
+}
+
+.menu{
+    float: right;
+    height: 50px;
+    width: 800px;
+    z-index: 1;
+    position: relative;
+}
+
+.navi{
+    float: right;
+    width: 800px;
+    height: 50px;
+    text-align: center;
+    position: relative;
+}
+
+ul.navi{
+    height: 50px;
+    text-align: center;
+}
+
+.navi > li{
+    float: left;
+    text-align: center;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.navi > li > a{
+    height: 50px;
+    width: 180px;
+    line-height: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #0066ad;
+    color: #ffffff;
+    text-align: center;
+}
+
+.navi > li > a:hover{
+    background-color: #30a3f3;
+}
+
+.submenu{
+    position: absolute;
+    display: none;
+    z-index: 1;
+    background-color: #0066ad;
+}
+
+.submenu > li > a{
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #ababab;
+    color: #ffffff;
+}
+
+.submenu > li > a:hover {
+    background-color: #30a3f3;
+}
+
+#bodywrap{
+    width: 1200px;
+    height: 900px;
+}
+
+.container{
+    width: 1200px;
+    height: 800px;
+    /* background-color: aqua; */
+}
+
+.bxslider{
+    overflow: hidden;
+    width: 800px;
+    height: 400px;
+}
+
+.imgslide{
+    width: 800px;
+    height: 400px;
+    background-color: azure;
+    margin-left: 200px;
+}
+
+.content{
+    width: 1200px;
+    height: 300px;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+}
+
+.notice, .gallery, .banner{
+    float: left;
+    width: 400px;
+    height: 300px;
+    background-color: bisque;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: ;
+    overflow: hidden;
+}
+
+.notice{
+    
+}
+
+.tabmenu li a{
+    margin: 0;
+    position: relative;
+    left: 30px;
+}
+ 
+.notice ul {
+    left: -20px;
+    float: left;
+    width: 393px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    position: relative;
+}
+
+.notice li{
+    height: 32px;
+    line-height: 32px;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+.notice li:nth-child(2n){
+    background-color: #ccc;
+}
+
+.notice li span{
+    float: right;
+}
+
+.notice li:hover{
+    font-weight: bold;
+}
+
+.gallery{
+    
+}
+
+.gallery li a{
+    position: relative;
+    left: 30px;
+}
+
+.gallery li{
+    float: left;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+.gallery img{
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+}
+
+.gallery li:hover{
+    opacity: 50%;
+}
+
+
+.banner{
+   
+}
+
+.otherwrap{
+    float: right;
+    height: 200px;
+    width: 800px;
+    /* background: goldenrod; */
+}
+
+.banner{
+    float: left;
+    height: 300px;
+    width: 395px;
+    /* background: orange; */
+}
+
+.banner img{
+    float: left;
+    height: 300px;
+    width: 395px;
+}
+
+.bntext{
+    float: left;
+    height: 40px;
+    width: 300px;
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    line-height: 40px;
+    background-color: rgba(40, 40, 40, 0.3);
+    left: 450px;
+    top: 80px;
+}
+
+.banner img:hover{
+    opacity: 0.5;
+}
+
+footer{
+    width: 1200px;
+    height: 100px;
+    background-color: aquamarine;
+}
